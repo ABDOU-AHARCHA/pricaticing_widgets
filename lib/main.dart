@@ -31,8 +31,8 @@ class WelcomePage extends StatelessWidget {
         fit: StackFit.expand, // Make the children of the Stack fill the screen
         children: <Widget>[
           // 1. The background image (bottom layer)
-          Image.network(
-            "https://img.freepik.com/premium-photo/abstract-geometric-background-with-pink-blue-gradient-futuristic-background-with-figures-technological-fashion-concept_494516-2021.jpg",
+          Image.asset(
+            'assets/images/red_background.png',
             fit: BoxFit.cover, // Ensure the image covers the whole screen
           ),
 
