@@ -53,7 +53,7 @@ class WelcomePage extends StatelessWidget {
 
                   // Welcome Title with a shadow for better readability
                   const Text(
-                    'Welcome to Flutter',
+                    'Welcome to the new app!',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 32,
